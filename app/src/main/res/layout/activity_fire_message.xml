@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flMessage"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <color name="black_bg">#000000</color>
+    <color name="dark_bg_70p">#bb000000</color>
+    <color name="common_bg">#f0f0f3</color>
+    <color name="common_sub_text">#888888</color>
+    <color name="black">#333333</color>
+    <color name="gray">#adadad</color>
+    <color name="gray_text">#adadad</color>
+    <color name="red">#ff0000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_bg">#ffe5e7e9</color>
+    <!-- scan color -->
+    <color name="viewfinder_frame">#929292</color>
+    <!-- camera -->
+    <!-- records -->
+    <!-- background -->
+    <!-- 橘色字体 -->
+    <color name="yellow_text">#ff6600</color>
+    <color name="green_text">#3fb895</color>
+    <!-- tab页面 -->
+    <!-- 画的线框的颜色 -->
+
+    <!-- wifi一键配置 -->
+
+    <!-- R1文件上传 -->
+    <!-- 消息 -->
+    <!-- 我的 -->
+
+    <!-- 回放列表 -->
+
+    <!-- 引导和登录 -->
+    <color name="quality_focused_color">#448cf3</color>
+    <color name="source_detection_btn_color">#48a9fb</color>
+
+</resources>

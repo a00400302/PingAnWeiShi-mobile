@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+    <FrameLayout
+        android:id="@+id/flSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/gray_bg"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+
+
+
+                    <ImageView
+                        android:src="@mipmap/radio_unchose"
+                        android:id="@+id/ivSelectPlace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:text="场所搜索："
+                        android:textSize="18sp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="场所："
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+
+                    <EditText
+                        android:focusable="false"
+                        android:id="@+id/etSearchPlace"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                                        android:background="@drawable/rounded_rectangle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@color/gray_bg"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+
+                    <ImageView
+                        android:id="@+id/ivSelectTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                                        android:src="@mipmap/radio_unchose"
+                    android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:text="报警发生时间搜索："
+                        android:textSize="18sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="开始时间："
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+
+                    <EditText
+                        android:focusable="false"
+                        android:id="@+id/etStartTime"
+                        android:textSize="18sp"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                                        android:background="@drawable/rounded_rectangle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp" />
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="结束时间："
+                        android:textSize="18sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" />
+
+                    <EditText
+                        android:focusable="false"
+                        android:id="@+id/etEndTime"
+                        android:textSize="18sp"
+                        android:paddingLeft="10dp"
+                        android:textColor="@color/black"
+                                        android:background="@drawable/rounded_rectangle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="28dp" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="搜索"
+                        android:background="@drawable/button_ciccle_shape_bu"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

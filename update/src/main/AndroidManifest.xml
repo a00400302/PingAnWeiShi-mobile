@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yxdz.update">
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+
+    <application android:allowBackup="true">
+
+
+        <!--<provider-->
+        <!--android:name="android.support.v4.content.FileProvider"-->
+        <!--android:authorities="${applicationId}.yourname"-->
+        <!--android:exported="false"-->
+        <!--android:grantUriPermissions="true">-->
+        <!---->
+        <!--</provider>-->
+
+        <!--<provider-->
+            <!--android:name="android.support.v4.content.FileProvider"-->
+            <!--android:authorities="com.yxdz.firecontrol.fileprovider"-->
+            <!--android:exported="false"-->
+            <!--android:grantUriPermissions="true">-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/provider_paths" />-->
+        <!--</provider>-->
+
+        <provider
+            android:name="com.yxdz.update.utils.MyFileProvider"
+            android:authorities="com.yxdz.update.anjufileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--/storage/emulated/0/updateTest/down//fireRadixs.apk-->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/inspection_device_recyclerview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:text="设备名"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp" />
+
+
+        <View android:layout_height="0dp" android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id="@+id/inspection_device_recyclerview_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="18dp"
+            android:text="正常"
+            android:textColor="@color/fire_control_theme"
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icons_forward" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"/>
+
+
+</LinearLayout>

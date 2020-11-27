@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:weightSum="2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/deviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxLength="15"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaa" />
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" : " />
+
+        <TextView
+            android:singleLine="true"
+            android:gravity="center"
+            android:id="@+id/deviceSn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="NS545566532224566" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/deciceIsBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>

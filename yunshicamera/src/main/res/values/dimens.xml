@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="loading_text_size">15dp</dimen>
+
+    <!-- R1文件 -->
+
+    <!-- realplay text size -->
+    <dimen name="realplay_text_size">12dp</dimen>
+    <dimen name="realplay_tip_text_size">16dp</dimen>
+    <dimen name="realplay_channel_text_size">9dp</dimen>
+    <dimen name="realplay_button_text_size">15dp</dimen>
+    <dimen name="realplay_ratio_text_size">24dp</dimen>
+
+    <!-- 回放列表 -->
+
+    <!-- 引导和登录 -->
+
+    <dimen name="source_detection_text_size">23dp</dimen>
+
+    <!--文字大小-->
+    <!--标题文字-->
+    <!--正文文字-->
+
+    <!--控件间距-->
+
+
+</resources>

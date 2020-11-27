@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/inspection_device_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TextView
+        android:text="检查结果"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/common_horizontal_line" />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/inspection_device_radiobutton1"
+            android:src="@mipmap/radio_unchose"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:button="@null"
+            android:text="合格"
+            android:textColor="@color/black_bg" />
+
+    </LinearLayout>
+
+    <include layout="@layout/common_horizontal_line" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/inspection_device_radiobutton2"
+            android:src="@mipmap/radio_unchose"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不合格"
+            android:button="@null"
+            android:checked="true"
+            android:textColor="@color/black_bg" />
+    </LinearLayout>
+
+    <include layout="@layout/common_horizontal_line" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/inspection_device_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="现场照片"
+                android:textSize="14sp"
+                android:textColor="@color/black_bg" />
+
+
+            <GridView
+                android:id="@+id/inspection_device_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:horizontalSpacing="20dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="3"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp">
+
+            </GridView>
+
+
+            <include layout="@layout/common_horizontal_line"></include>
+
+            <TextView
+                android:text="备注"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"
+                android:textColor="@color/black_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:layout_marginStart="20dp"
+                android:id="@+id/inspection_device_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="请输入巡检人员的备注或管理人员的整改信息"
+                android:lineSpacingExtra="5dp"
+                android:lineSpacingMultiplier="1.0"
+                android:maxEms="100"
+                android:maxLength="100"
+                android:maxLines="4"
+                android:minLines="4"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/txt_common_black"
+                android:textColorHint="#c4c4c4"
+                android:textSize="14sp" />
+
+            <include layout="@layout/common_horizontal_line"></include>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include layout="@layout/common_horizontal_line"></include>
+
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/inspection_device_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_ciccle_shape_bu"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

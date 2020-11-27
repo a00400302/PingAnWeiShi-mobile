@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout style="@style/item_info">
+
+        <TextView
+            style="@style/info_text"
+            android:text="设备名称" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/inspection_device_info_name"
+            style="@style/info_text"
+            android:text="----" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/common_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout style="@style/item_info">
+
+        <TextView
+            style="@style/info_text"
+            android:text="设备状态" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/inspection_device_info_state"
+            style="@style/info_text"
+            android:text="----" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/common_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout style="@style/item_info">
+
+        <TextView
+            style="@style/info_text"
+            android:text="设备类型" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/inspection_device_info_type"
+            style="@style/info_text"
+            android:text="----" />
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/common_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:id="@+id/placeNameLayout"
+        style="@style/item_info">
+
+        <TextView
+            style="@style/info_text"
+            android:text="场所名称" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/inspection_device_info_place_name"
+            style="@style/info_text"
+            android:text="----" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/common_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <!--<LinearLayout style="@style/item_info">-->
+
+        <!--<TextView-->
+            <!--style="@style/info_text"-->
+            <!--android:text="所属区域" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/inspection_device_info_place_address"-->
+            <!--style="@style/info_text"-->
+            <!--android:text="&#45;&#45;&#45;&#45;" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+    <LinearLayout style="@style/item_info">
+
+        <TextView
+            style="@style/info_text"
+            android:text="安装位置" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/inspection_device_info_place_position"
+            style="@style/info_text"
+            android:text="----" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/common_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+
+
+</LinearLayout>

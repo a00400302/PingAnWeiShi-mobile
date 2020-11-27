@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='1.首先需要对方下载并打开"瓶安卫士"APP'
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='2.点击首页右上角"+",选择二维码添加,进入扫一扫页面'
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.扫描下方二维码,看到提示结果即完成分享"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+    <ImageView
+        android:id="@+id/qr"
+
+        android:layout_width="260dp"
+        android:layout_height="260dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_ciccle_shape_bu"
+        android:padding="10dp"
+        android:text="刷新"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="二维码已失效?请点击刷新" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ProgressBar
+        android:id="@+id/common_recyclerview_footer_progressbar"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/common_recyclerview_footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:minWidth="100dip"
+        android:text="没有了~"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="titleBar">
+        <!-- 标题栏标题-->
+        <attr name="titleBarText" format="string"/>
+        <!-- 标题栏标题字体颜色-->
+        <attr name="titleBarTextColor" format="color"/>
+        <!-- 标题栏标题字体大小-->
+        <attr name="titleBarTextSize" format="dimension"/>
+        <!-- 标题栏主背景-->
+        <attr name="titleBarBackground" format="color|reference"/>
+
+        <!-- 返回是否显示-->
+        <attr name="titleBarBackVisible" format="boolean"/>
+
+
+        <!--&lt;!&ndash; 标题&ndash;&gt;-->
+        <!--<attr name="headTitle" format="string"/>-->
+        <!--&lt;!&ndash; 字体大小&ndash;&gt;-->
+        <!--<attr name="headTextSize" format="dimension"/>-->
+
+        <!--&lt;!&ndash; 字体大小&ndash;&gt;-->
+        <!--<attr name="headRightTextSize" format="dimension"/>-->
+
+        <!--&lt;!&ndash; 文字颜色&ndash;&gt;-->
+        <!--<attr name="headTextColor" format="color"/>-->
+
+
+        <!--&lt;!&ndash; 主背景&ndash;&gt;-->
+        <!--<attr name="headBackground" format="color|reference"/>-->
+
+        <!--&lt;!&ndash; 左边是否显示&ndash;&gt;-->
+        <!--<attr name="headLeftVisible" format="boolean"/>-->
+
+        <!--&lt;!&ndash; 转圈是否显示&ndash;&gt;-->
+        <!--<attr name="headPbarVisible" format="boolean"/>-->
+    </declare-styleable>
+
+
+</resources>

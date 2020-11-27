@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:id="@+id/inspection_device_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginStart="47dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="#cccccc"
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <com.yxdz.common.view.CustomRecyclerView
+
+            android:id="@+id/inspection_device_progress_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+        </com.yxdz.common.view.CustomRecyclerView>
+
+
+
+        <LinearLayout
+            android:id="@+id/inspection_device_progress_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/no_data" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>

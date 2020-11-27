@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yxdz.common">
+
+    <!--监听网路状态变化-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+</manifest>

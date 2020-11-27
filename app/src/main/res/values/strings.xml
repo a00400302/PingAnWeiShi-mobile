@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">瓶安卫士</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="argee1"><u>《隐私政策》</u></string>
+    <string name="argee2"><u>《用户协议》</u></string>
+    <string name="data1">本隐私权保护政策所指的\"个人信息\"是指任何可以确定个人身份的信息，包括电话号码，以及提供服务时所需附带的其他信息。我们的软件仅会在您自愿提供的情况下（例如您在我们软件进行注册、向我们提出评论或问题）收集您的个人信息。</string>
+    <string name="title_activity_gate_record">GateRecordActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="share_app_name">瓶安卫士</string>
+
+    <string name="share_about_app">瓶安卫士，是一款集结智能与消防于一体的实用类 APP，APP 不仅使用低功耗烟感模块，可实时查看烟感设备和设备详情，触发消防事件后可实时查看消息</string>
+
+</resources>

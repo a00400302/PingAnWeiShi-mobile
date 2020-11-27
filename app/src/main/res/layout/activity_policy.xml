@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="隐私政策"
+        yxdz:titleBarTextColor="@color/white">
+
+    </com.yxdz.common.view.TitleBarView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="隐私声明"
+                android:textColor="@color/black"
+                android:textSize="70px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="    我司十分重视您对我们品牌的信任。为了给您带来更满意的用户体验，也为了更好地与您展开就我们产品和服务的沟通，当您使用我们的软件（APP）时， 我们会收集一定的信息。本政策旨在帮助您理解我们在您使用软件时所收集的信息种类、用途以及我们相应的信息保护措施。本隐私权保护政策解释了用户个人信息收集和使用的有关情况，本隐私权保护政策适用于我们的软件所有相关服务。
+    \n    如果您使用我们的产品并向我们的服务器提交了信息，说明您已同意我们本政策中所定义的目的和用途收集、使用收集到的信息。
+"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1.个人信息"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/data1"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2.设备信息"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="    我们会收集客户向自己的账户中添加的设备信息，以便为您提供软件功能与应用，当您使用我们的软件时，我们的软件还会要求某些关于您的非个人可识别信息，如您的域名、IP地址、手机语言等。我们的软件会将这些信息存储起来以便下次自动使用。 "
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="我们如何使用您的信息"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+
+                android:text="我们的软件会将收集的个人信息与设备信息用于以下目的：
+\n软件本身的功能服务等；
+\n用于改善软件服务的内容、外观以及功能；
+\n用于了解您的需求和偏好；
+\n用于调研和评估；
+\n用于管理并发展我们的业务和经营及管理客户等；
+\n用于探测并保护APP软件和其他第三方免受疏忽、欺诈、盗窃及其他非法行为所导致的损害；
+\n任何法律、监管规定、程序或条款所许可，并应遵照执行的要求；
+"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3.信息披露"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="     为对包括执法要求在内的司法程序做出回应，以及为保障用户、我们的软件和其关联公司与其他第三方的安全、财产或法律权益需要，按照法律规定，我们还必须保留披露您个人信息的权利。"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4.未成年人的隐私"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="     我们的软件非常关注未成年人个人信息的保护。若您是18周岁以下的未成年人，在使用我们的软件服务前，应事先取得您家长或法定监护人的书面同意。我们的软件根据国家相关法律法规的规定保护未成年人的个人信息。"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5.信息安全"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="     我们的软件采用诸多安全措施，严格保护您的个人信息安全。我们使用各种制度、安全技术和程序等措施来保护您的个人信息不被未经授权的访问、使用或泄漏。如果您对我们的个人信息保护有任何疑问，请联系我们。"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6.政策修改"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="     本隐私权保护政策可以不时修改更新（无需事前向您告知）。对于隐私权保护修改的内容将会在刊登在我们的网站上。"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7.基本信息"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="     	公司名称: 中山市宇信科技有限公司
+	\n     注册地址: 中山市东区起湾工业村富湾工业区（石岐区美居产业园）7幢3层17卡
+	\n     办公地址: 中山市东区起湾工业村富湾工业区（石岐区美居产业园）7幢3层17卡
+\n     信息保护人联系电话:19925923082"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mob 分享隐私政策:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="http://www.mob.com/about/policy" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:yxdz="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnCloseGate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_ciccle_shape_bu"
+        android:gravity="center"
+        android:text="阀门关闭"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备记录"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fire_device_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.yxdz.common.view.CustomRecyclerView
+            android:id="@+id/record_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.yxdz.common.view.CustomRecyclerView>
+
+        <LinearLayout
+            android:id="@+id/fire_device_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/no_data" />
+
+
+            <!--            <TextView-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="8dp"-->
+            <!--            android:gravity="center"-->
+            <!--            android:text="暂无数据" />-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

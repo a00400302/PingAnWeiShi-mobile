@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/call_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+
+    <TextView
+        android:id="@+id/contacts_name"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text="asdfas"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:layout_toRightOf="@id/contacts_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:text=":"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+
+    <TextView
+        android:layout_toRightOf="@id/contacts_name"
+        android:id="@+id/contacts_number"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="12345678910"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/call_btn"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <!--            android:src="@mipmap/linkman_call"-->
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/primary"
+            android:text="拨打"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/delete_btn"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_width="60dp"
+        android:layout_height="match_parent">
+
+
+<!--        android:src="@mipmap/delete"-->
+        <RadioButton
+            android:clickable="false"
+            android:id="@+id/isDelFlag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RadioButton>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="#16111111"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+</RelativeLayout>

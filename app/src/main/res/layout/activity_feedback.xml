@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="宇信科技"
+        yxdz:titleBarTextColor="@color/white" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:text="手机号码"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+                <EditText
+                    android:id="@+id/feedback_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@null"
+                    android:digits="1234567890"
+                    android:gravity="center|left"
+                    android:hint="输入您的手机号码"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/txt_common_black"
+                    android:textColorHint="#c4c4c4"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/common_horizontal_line" />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:text="反馈意见"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <EditText
+                    android:id="@+id/feedback_suggestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:hint="请输入反馈意见，我们将为您不断改进"
+                    android:lineSpacingExtra="5dp"
+                    android:lineSpacingMultiplier="1.0"
+                    android:maxEms="200"
+                    android:maxLength="200"
+                    android:maxLines="8"
+                    android:minLines="8"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/txt_common_black"
+                    android:textColorHint="#c4c4c4"
+                    android:textSize="14sp" />
+
+                <include layout="@layout/common_horizontal_line"></include>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/feedback_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_ciccle_shape_bu"
+                android:gravity="center"
+                android:text="提 交"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

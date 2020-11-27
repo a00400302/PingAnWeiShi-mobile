@@ -1,0 +1,4 @@
+1、在ShareInitializer类设置友盟AppKey：UMConfigure.init(context, 友盟AppKey, "umeng", UMConfigure.DEVICE_TYPE_PHONE, "")
+2、设置相应的AppId，AppSecret
+3、初始化ShareInitializer.init(context)
+4、调用分享new ShareCommon(getActivity(),null,null,null);

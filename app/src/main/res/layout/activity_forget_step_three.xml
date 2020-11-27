@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:yxdz="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.yxdz.pinganweishi.ui.login.ForgetStepOneActivity">
+
+    <com.yxdz.common.view.TitleBarView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        yxdz:titleBarBackVisible="true"
+        yxdz:titleBarBackground="@color/fire_control_theme"
+        yxdz:titleBarText="找回密码"
+        yxdz:titleBarTextColor="@color/white">
+    </com.yxdz.common.view.TitleBarView>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="138dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/success_status_bu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:textColor="#999999"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="修改成功"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <Button
+            android:id="@+id/next_step"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_ciccle_shape_bu"
+            android:gravity="center"
+            android:text="返回登录页"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
